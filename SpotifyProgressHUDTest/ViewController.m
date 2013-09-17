@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SpotifyProgressHUD.h"
 
 @interface ViewController ()
 
@@ -17,7 +18,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    SpotifyProgressHUD *progressView = [[SpotifyProgressHUD alloc] initWithFrame:CGRectMake(0, 0, 150, 150)
+                                                               withPointDiameter:16
+                                                                    withInterval:0.25];
+    progressView.center = self.view.center;
+    [self.view addSubview:progressView];
 }
 
 - (void)didReceiveMemoryWarning

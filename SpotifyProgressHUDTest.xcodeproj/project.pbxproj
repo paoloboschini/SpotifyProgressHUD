@@ -18,6 +18,7 @@
 		87A8309117E898D60014606C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A8309017E898D60014606C /* Default-568h@2x.png */; };
 		87A8309417E898D60014606C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A8309317E898D60014606C /* ViewController.m */; };
 		87A8309717E898D60014606C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87A8309517E898D60014606C /* ViewController.xib */; };
+		87A8309F17E8990F0014606C /* SpotifyProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A8309E17E8990F0014606C /* SpotifyProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		87A8309217E898D60014606C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		87A8309317E898D60014606C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		87A8309617E898D60014606C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		87A8309D17E8990F0014606C /* SpotifyProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotifyProgressHUD.h; sourceTree = "<group>"; };
+		87A8309E17E8990F0014606C /* SpotifyProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpotifyProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				87A8309217E898D60014606C /* ViewController.h */,
 				87A8309317E898D60014606C /* ViewController.m */,
 				87A8309517E898D60014606C /* ViewController.xib */,
+				87A8309D17E8990F0014606C /* SpotifyProgressHUD.h */,
+				87A8309E17E8990F0014606C /* SpotifyProgressHUD.m */,
 				87A8308117E898D60014606C /* Supporting Files */,
 			);
 			path = SpotifyProgressHUDTest;
@@ -176,6 +181,7 @@
 				87A8308717E898D60014606C /* main.m in Sources */,
 				87A8308B17E898D60014606C /* AppDelegate.m in Sources */,
 				87A8309417E898D60014606C /* ViewController.m in Sources */,
+				87A8309F17E8990F0014606C /* SpotifyProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
